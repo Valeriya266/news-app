@@ -6,5 +6,5 @@ export const formatDate = (data) => {
         day: 'numeric'
     }
 
-    return date.toLocalDatesString('en-US', options)
+    return date.toLocaleDatesString('en-US', options)
 }
