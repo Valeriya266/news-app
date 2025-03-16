@@ -1,4 +1,4 @@
-export const formatDate = (data) => {
+export const formatDate = (date) => {
     const options = {
         weekday: 'long',
         year: 'numeric',
