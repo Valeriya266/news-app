@@ -21,7 +21,9 @@ const Main = () => {
 
     return (
         <main className={styles.main}>
-            <NewsBanner item={news[0]} />
+            {news.length > 0 ? <NewsBanner item={news[0]} /> : null}
+
+            <NewsList news={news}/>
         </main>
     );
 };
