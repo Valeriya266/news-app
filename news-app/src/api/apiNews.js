@@ -12,7 +12,7 @@ export const getNews = async () => {
                 apiKey: API_KEY
             }
         })
-        return response.data
+        return response.data;
     }
     catch (error) {
         console.log(error);
