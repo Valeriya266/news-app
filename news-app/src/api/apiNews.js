@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios, { AxiosHeaders } from 'axios';
 
 const BASE_URL=import.meta.env.VITE_NEWS_BASE_API_URL
 const API_KEY=import.meta.env.VITE_NEWS_BASE_API_KEY
